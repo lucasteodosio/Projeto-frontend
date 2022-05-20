@@ -1,0 +1,36 @@
+
+/* body */ 
+body{
+    font: 20px arial, sans-serif;
+}
+
+/* Barra de navegação */
+.navbar{
+    background-color: #E6E6E6;
+    padding-left: 50px;
+}
+
+/* margem */
+
+.margin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Textos */
+.text{
+    padding-top: 50px;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.footer{
+    font-size: 15px;
+}
+
+/* Formulário */
+
+.container{
+    margin-top: 10px;
+}
