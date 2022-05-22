@@ -28,33 +28,33 @@
         </div>
     </nav>
     <section>
-        <div class="container-fluid text-center margin formulario">
-            <h3 class="margin">Entre em contato!</h3>
-            <div class="container">
-              <img src="img/contact.png" width="200px">
-              <form>
-                <div>
-                  <Label class="container"></Label>
-                  <input minlength="5" maxlength="100" placeholder="Nome Completo" required type="text">
-                </div>
-                <div>
-                  <Label class="container"></Label>
-                  <input min="18" max="120" required type="number" placeholder="Idade">
-                </div>
-                <div>
-                  <label class="container"></label>
-                  <input required type="email" placeholder="Email">
-                </div>
-                <div>
-                  <label class="container"></label>
-                  <textarea required placeholder="Mensagem"></textarea>
-                </div>
-                <div>
-                  <button type="submit">Enviar</button>
-                </div>
-            </form>
+            <div class="container-fluid text-center margin">
+                <h3 class="margin">Entre em contato!</h3>
+                    <div class="container margin">
+                        <img src="img/contact.png" width="150px">
+                    </div>    
+                    <form>
+                        <div class="mb-3 formulario">
+                            <label for="exampleInputEmail1" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="exampleInputname" aria-describedby="namehelp">
+                        </div>
+                        <div class="mb-3 formulario">
+                            <label for="exampleInputtel" class="form-label">Telefone</label>
+                            <input  type="text" class="form-control" id="exampleInputtel">
+                        </div>
+                        <div class="mb-3 formulario">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">
+                            Nunca compartilharemos seu e-mail ninguém.</div>
+                        </div>
+                        <div class="mb-3 formulario">
+                            <label for="exampleInputtext" class="form-label">Mensagem</label>
+                            <textarea type="text" class="form-control"  aria-describedby="mensagem"></textarea>
+                        </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
             </div>
-        </div>
     </section>
     <footer class="container-fluid text-center bg-footer footer">
         <p>Desenvolvido por Lucas Teodosio Marins</p>

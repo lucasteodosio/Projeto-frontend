@@ -10,6 +10,12 @@ body{
     padding-left: 50px;
 }
 
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
 /* margem */
 
 .margin{
@@ -31,6 +37,8 @@ body{
 
 /* Formulário */
 
-.container{
-    margin-top: 10px;
+.formulario{
+    padding-left: 500px;
+    padding-right: 500px;
 }
+
